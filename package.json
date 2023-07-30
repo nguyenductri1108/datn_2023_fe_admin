@@ -1,0 +1,27 @@
+{
+  "name": "tri-testdauvao",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.6.2",
+    "chart.js": "^4.3.0",
+    "next": "13.4.6",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6"
+  }
+}
