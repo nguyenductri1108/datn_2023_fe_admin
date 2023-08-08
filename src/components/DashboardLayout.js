@@ -1,8 +1,7 @@
 import { Typography } from "antd";
 import { memo } from "react";
-import OptionChart from "./OptionChart";
 
-const DashboardLayout = ({ valueOptionChart }) => {
+const DashboardLayout = () => {
     return (
         <>
             <Typography.Title>Dashboard</Typography.Title>
