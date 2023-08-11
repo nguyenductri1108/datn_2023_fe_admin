@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import settingsReducer from "../redux/slices/settingsSlice";
+import userReducer from "./slices/userReducer";
 
 export const store = configureStore({
     reducer: {
-        settings: settingsReducer,
+        userData: userReducer,
     },
     middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware({
